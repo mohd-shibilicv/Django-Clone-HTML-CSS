@@ -1,0 +1,83 @@
+.footer {
+    position: relative;
+    padding: 2vw 6vw;
+    background: #089c63;
+}
+
+.footer__links {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer__links .column {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.column h3 {
+    font-size: 18px;
+    color: #e4dede;
+    font-weight: 600;
+}
+
+.column ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.column ul li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #e4dede;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main__footer {
+    background: #0C4B33;
+    padding: 2vw 6vw;
+}
+
+.mention {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30%;
+}
+
+.mention .host {
+    font-size: 14px;
+    color: #e4dede93;
+}
+
+.host span {
+    font-size: 22px;
+    font-family: fantasy;
+}
+
+.mention .design {
+    font-size: 14px;
+    color: #e4dede88;
+}
+
+.design span {
+    font-size: 22px;
+    font-family: fantasy;
+}
+
+.main__footer .copy {
+    font-size: 14px;
+    color: #e4dede;
+}
+
+.main__footer .copy a{
+    color: #e4dede;
+}

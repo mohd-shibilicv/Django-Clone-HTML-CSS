@@ -1,0 +1,278 @@
+.right__container {
+    background: #181d27;
+    padding: 15px 25px;
+}
+
+.django__links {
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.django__links .download {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #181d27;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #44B78B;
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.django__links .documentation {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #44B78B;
+    font-weight: 600;
+}
+
+.documentation:hover {
+    color: #2a8b2f;
+}
+
+.django__donation {
+    padding: 5px 20px;
+}
+
+.django__donation h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #cac7c7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.django__donation div {
+    padding: 20px;
+    gap: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.django__donation div img {
+    width: 100px;
+}
+
+.django__donation div p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #eee;
+}
+
+.django__news {
+    padding: 5px 20px;    
+}
+
+.django__news h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #cac7c7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.django__news div {
+    margin: 30px auto;    
+}
+
+.django__news div a {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.django__news div p {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #cac7c7;
+}
+
+.django__news .more-news {
+    margin: 20px 0;
+    color: #44B78B;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.django__guides {
+    padding: 5px 20px;
+}
+
+.django__guides h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #cac7c7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.django__guides div {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.django__guides div img {
+    width: 24px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.django__guides div a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #cac7c7;
+}
+
+.django__guides .start {
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.django__power {
+    padding: 20px 20px;
+}
+
+.django__power h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #cac7c7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.django__power div {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.django__power div img {
+    width: 24px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.django__power div a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #cac7c7;
+}
+
+.django__power .features {
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.django__community {
+    padding: 20px;
+}
+
+.django__community h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #cac7c7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.django__community div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.django__community div a {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.django__community div p {
+    color: #cac7c7;
+    font-size: 16px;
+}
+
+.django__community .community {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.django__help {
+    padding: 5px 20px;
+}
+
+.django__help h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #cac7c7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.django__help div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.django__help div a {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.django__help div p {
+    padding: 10px 0;
+    color: #cac7c7;
+    font-size: 16px;
+}
+.django__foundation {
+    padding: 5px 20px;
+}
+
+.django__foundation h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #cac7c7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.django__foundation div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.django__foundation div a {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.django__foundation div p {
+    padding: 10px 0;
+    color: #cac7c7;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.django__foundation .more {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+}
+

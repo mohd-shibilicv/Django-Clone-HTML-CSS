@@ -1,0 +1,188 @@
+.full__container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.full__container::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+
+.left__container {
+    background: #0e1117;
+}
+
+.section__meet-django {
+
+    padding: 25px 50px;
+}
+
+.section__meet-django h1 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #cac7c7;
+    margin-top: 20px;
+}
+
+.section__meet-django p {
+    margin-top: 20px;
+    color: #cac7c7;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.django-advantages {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.django-advantages .advantage {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.advantage .section__img {
+    background: #44B78B;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.section__img img {
+    width: 50px;
+}
+
+.advantage .section-info {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.section-info h3 {
+    font-size: 22px;
+    color: #cac7c7;
+    margin-bottom: 20px;
+}
+
+.section-info p {
+    margin-top: -10px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.learn__more {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn__more a {
+    font-size: 20px;
+    padding: 20px 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    color: #cac7c7;
+}
+
+.learn__more a:hover {
+    color: #44B78B;
+    border: 2px solid #44B78B;
+}
+
+.left__container hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #cac7c7;
+}
+
+.section__subscribe {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px;
+}
+
+.section__subscribe h1 {
+    margin-top: 30px;
+    font-size: 38px;
+    color: #cac7c7;
+    font-weight: 500;
+}
+
+.section__subscribe p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #cac7c7;
+}
+
+.section__usage {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-display: row;
+}
+
+.section__usage h3 {
+    font-size: 20px;
+    color: #44B78B;
+}
+
+.section__usage p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section__usage .send-mail {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.send-mail input {
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #cac7c7;
+    color: #fff;
+    outline: none;
+    background: transparent;
+}
+
+::placeholder {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.send-mail img {
+    z-index: 1;
+    position: relative;
+    width: 30px;
+    top: 0;
+    left: -50px;
+}
+
+.using__django p {
+    margin-top: 20px;
+}
+
+.contrib__django p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contrib__django hr {
+    width: 100%;
+    margin-left: 0px;
+}
